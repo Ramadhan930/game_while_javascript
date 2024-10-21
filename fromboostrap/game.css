@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+
+body {
+  background: rgb(65, 65, 65);
+  font-family: "SUSE", sans-serif;
+}
+
+#navbar {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#navbar .nav-link {
+  color: yellow;
+}
+
+#navbar .nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#navbar .navbar-brand {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#title-head {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+  #title-head h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
+
